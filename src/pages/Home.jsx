@@ -1503,9 +1503,10 @@ export default function Home() {
                         src={iglogo}
                         alt="Instagram"
                         sx={{
-                          width: { xs: '20px', md: '24px' },
-                          height: { xs: '20px', md: '24px' },
-                          filter: 'brightness(0) invert(1)',
+                          width: { xs: '24px', md: '28px' },
+                          height: { xs: '24px', md: '28px' },
+                          display: 'block',
+                          objectFit: 'contain',
                         }}
                       />
                     </Box>
@@ -1688,9 +1689,10 @@ export default function Home() {
                         src={iglogo}
                         alt="Instagram"
                         sx={{
-                          width: { xs: '20px', md: '24px' },
-                          height: { xs: '20px', md: '24px' },
-                          filter: 'brightness(0) invert(1)',
+                          width: { xs: '24px', md: '28px' },
+                          height: { xs: '24px', md: '28px' },
+                          display: 'block',
+                          objectFit: 'contain',
                         }}
                       />
                     </Box>
