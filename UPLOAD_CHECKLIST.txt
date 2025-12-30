@@ -1,0 +1,22 @@
+GITHUB UPLOAD CHECKLIST
+=======================
+
+FILES TO UPLOAD (from frontend folder):
+✓ package.json
+✓ package-lock.json
+✓ README.md (optional)
+
+FOLDERS TO UPLOAD (entire folders):
+✓ public/ (with all contents including favicon.ico)
+✓ src/ (with all contents including assets/, components/, pages/)
+
+DO NOT UPLOAD:
+✗ node_modules/
+✗ build/
+✗ .DS_Store files
+✗ .git/ folder
+
+NETLIFY SETTINGS:
+- Build command: npm run build
+- Publish directory: build
+- Base directory: (leave blank)

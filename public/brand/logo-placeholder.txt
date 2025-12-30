@@ -1,0 +1,14 @@
+Place the no-choice-logo.png file here.
+
+The logo should be:
+- PNG format
+- Transparent background
+- Minimum 200px height
+- High resolution for retina displays
+
+If you don't have a logo yet, you can use a text-based logo or create one at:
+- Canva.com
+- Figma.com
+- Or hire a designer on Fiverr/Upwork
+
+

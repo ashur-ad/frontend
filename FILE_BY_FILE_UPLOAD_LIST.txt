@@ -1,0 +1,98 @@
+EXACT FILES TO UPLOAD TO GITHUB (File by File)
+===============================================
+
+STEP 1: Upload these ROOT FILES first:
+---------------------------------------
+1. package.json
+2. package-lock.json
+3. README.md (optional)
+
+STEP 2: Create PUBLIC folder structure and upload files:
+--------------------------------------------------------
+Create folder: public/
+
+Then upload these files INTO the public/ folder:
+- public/index.html
+- public/favicon.ico
+- public/manifest.json
+- public/robots.txt
+- public/logo192.png
+- public/logo512.png
+- public/test.html
+
+Create subfolder: public/brand/
+Upload into public/brand/:
+- public/brand/logo-placeholder.txt
+- public/brand/no-choice-logo.svg
+
+Create subfolder: public/gallery/ (if it has files)
+Upload any files from public/gallery/ if they exist
+
+STEP 3: Create SRC folder structure and upload files:
+-----------------------------------------------------
+Create folder: src/
+
+Upload these ROOT files INTO src/:
+- src/App.js
+- src/index.js
+- src/index.css
+- src/theme.js
+
+Create subfolder: src/assets/
+Upload ALL files from src/assets/ INTO src/assets/:
+- src/assets/eyebrows.png
+- src/assets/favicon.ico
+- src/assets/gallery.png
+- src/assets/hero-main.jpg
+- src/assets/iglogo.png
+- src/assets/IMG_0265.JPEG
+- src/assets/IMG_0266.JPEG
+- src/assets/IMG_0267.JPEG
+- src/assets/IMG_1257.JPG
+- src/assets/IMG_1264.JPEG
+- src/assets/lashes.png
+- src/assets/logo-main.png
+- src/assets/main1.jpg
+- src/assets/main2.HEIC
+- src/assets/main3.JPG
+- src/assets/main4.JPG
+- src/assets/main5.JPG
+- src/assets/main6.PNG
+- src/assets/main7.JPEG
+- src/assets/mainpage.png
+- src/assets/makeup.png
+- src/assets/nails.png
+- src/assets/NavBarLogo.png
+- src/assets/newnavbarlogo.png
+- src/assets/pedicure.JPEG
+- src/assets/service.PNG
+- src/assets/services.png
+
+Create subfolder: src/components/
+Upload ALL files from src/components/ INTO src/components/:
+- src/components/BookFab.jsx
+- src/components/Footer.jsx
+- src/components/Header.jsx
+- src/components/Hero.jsx
+- src/components/InstagramGallery.jsx
+- src/components/Layout.jsx
+- src/components/Lightbox.jsx
+- src/components/ServiceCard.jsx
+
+Create subfolder: src/pages/
+Upload ALL files from src/pages/ INTO src/pages/:
+- src/pages/GalleryPage.jsx
+- src/pages/Home.jsx
+- src/pages/HomePage.jsx
+
+Create subfolders if they have files:
+- src/data/ (if it has files, upload them)
+- src/seo/ (if it has files, upload them)
+- src/styles/ (if it has files, upload them)
+
+IMPORTANT NOTES:
+- When creating folders in GitHub, click "Add file" → "Create new file"
+- Type the folder name followed by a filename, like: public/index.html
+- GitHub will automatically create the folder structure
+- Upload files one at a time or use "Add file" → "Upload files" for multiple
+

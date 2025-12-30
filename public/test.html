@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No Choice Beauty Studio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #1a1a1a;
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #666;
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+        }
+        p {
+            color: #666;
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+        }
+        .buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        button {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .primary {
+            background-color: #1a1a1a;
+            color: white;
+        }
+        .primary:hover {
+            background-color: #333;
+        }
+        .secondary {
+            background-color: transparent;
+            color: #1a1a1a;
+            border: 2px solid #1a1a1a;
+        }
+        .secondary:hover {
+            background-color: #1a1a1a;
+            color: white;
+        }
+        .services {
+            margin-top: 60px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .service-card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+        .service-card h3 {
+            color: #1a1a1a;
+            margin-bottom: 15px;
+        }
+        .service-card p {
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .price {
+            font-weight: bold;
+            color: #1a1a1a;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>no choice</h1>
+        <h2>Professional Beauty Services</h2>
+        <p>Precision Russian manicures and modern nail care in Los Angeles.</p>
+        
+        <div class="buttons">
+            <button class="primary">Book Appointment</button>
+            <button class="secondary">View Services</button>
+        </div>
+
+        <div class="services">
+            <div class="service-card">
+                <h3>Russian Manicure</h3>
+                <p>Precision cuticle work and nail shaping using advanced techniques</p>
+                <div class="price">From $65</div>
+            </div>
+            <div class="service-card">
+                <h3>Gel Manicure</h3>
+                <p>Long-lasting color with perfect application and finish</p>
+                <div class="price">From $45</div>
+            </div>
+            <div class="service-card">
+                <h3>Nail Art</h3>
+                <p>Custom designs and artistic nail treatments</p>
+                <div class="price">From $25</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

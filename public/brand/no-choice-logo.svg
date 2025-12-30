@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80">
+  <!-- Logo background matching the actual logo -->
+  <rect width="300" height="80" fill="#E8E8E8"/>
+  
+  <!-- "no choice" text matching the logo style -->
+  <text x="20" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="400" fill="#000000" letter-spacing="0.03em">
+    no choice.
+  </text>
+</svg>
+
