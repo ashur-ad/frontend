@@ -4,21 +4,6 @@
     <loc>https://nochoicebeauty.com/</loc>
     <priority>1.00</priority>
   </url>
-  <url>
-    <loc>https://nochoicebeauty.com/services</loc>
-    <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>https://nochoicebeauty.com/book</loc>
-    <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>https://nochoicebeauty.com/about</loc>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://nochoicebeauty.com/contact</loc>
-    <priority>0.70</priority>
-  </url>
 </urlset>
+
 
