@@ -7,6 +7,7 @@ import nailsImage from '../assets/nails.png';
 import makeupImage from '../assets/makeup.png';
 import lashesImage from '../assets/lashes.png';
 import eyebrowsImage from '../assets/eyebrows.png';
+import iglogo from '../assets/iglogo.png';
 
 // Design system constants
 const ACCENT_COLOR = '#9A9A8A'; // Warm greige/stone
@@ -1614,6 +1615,45 @@ export default function Home() {
                       }}
                     >
                       lanochoice@gmail.com
+                    </Box>
+                  </Box>
+                  
+                  <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5, mt: 0.5 }}>
+                    <Typography
+                      sx={{
+                        fontFamily: '"Crimson Text", serif',
+                        fontSize: { xs: '0.9375rem', md: '1rem' },
+                        color: '#d3d2d2',
+                        fontWeight: 400,
+                      }}
+                    >
+                      Instagram:
+                    </Typography>
+                    <Box
+                      component="a"
+                      href="https://www.instagram.com/nochoice_la/?hl=en"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      sx={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: 1,
+                        textDecoration: 'none',
+                        '&:hover': {
+                          opacity: 0.8,
+                        },
+                      }}
+                    >
+                      <Box
+                        component="img"
+                        src={iglogo}
+                        alt="Instagram"
+                        sx={{
+                          width: { xs: '20px', md: '24px' },
+                          height: { xs: '20px', md: '24px' },
+                          filter: 'brightness(0) invert(1)',
+                        }}
+                      />
                     </Box>
                   </Box>
                 </Box>
