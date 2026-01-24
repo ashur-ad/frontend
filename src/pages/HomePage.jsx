@@ -13,7 +13,6 @@ import pedicureImage from '../assets/pedicure.JPEG';
 const services = [
   {
     title: 'Russian Manicure',
-    price: 'From $85',
     description: 'Precision cuticle work and flawless nail shaping using advanced techniques.',
     image: nailsImage,
     featured: true,
@@ -21,7 +20,6 @@ const services = [
   },
   {
     title: 'Gel Extensions',
-    price: 'From $120',
     description: 'Beautiful, durable extensions that look natural and last for weeks.',
     image: nailsImage,
     featured: true,
@@ -29,28 +27,24 @@ const services = [
   },
   {
     title: 'Custom Nail Art',
-    price: 'From $95',
     description: 'Unique designs and artistic expression tailored to your style.',
     image: nailsImage,
     benefits: ['Unique designs', 'Professional quality', 'Endless possibilities'],
   },
   {
     title: 'Classic Manicure',
-    price: 'From $50',
     description: 'Traditional manicure with a modern touch for timeless elegance.',
     image: nailsImage,
     benefits: ['Classic techniques', 'Moisturizing treatment', 'Perfect polish'],
   },
   {
     title: 'Pedicure',
-    price: 'From $65',
     description: 'Relaxing foot care treatment for healthy, beautiful feet.',
     image: pedicureImage,
     benefits: ['Exfoliating treatment', 'Callus removal', 'Nail shaping'],
   },
   {
     title: 'Lash Services',
-    price: 'From $90',
     description: 'Eyelash extensions and lifts for stunning, natural-looking lashes.',
     image: lashesImage,
     benefits: ['Volume & length', 'Low maintenance', 'Natural appearance'],
@@ -191,4 +185,6 @@ const HomePage = () => {
 };
 
 export default HomePage;
+
+
 
