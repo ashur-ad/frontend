@@ -18,57 +18,57 @@ const serviceCategories = [
   {
     category: 'Nails',
     services: [
-      { name: 'Gel removal + shape (no manicure)', price: '$20.00' },
-      { name: 'Gel removal (no manicure)', price: '$15.00' },
-      { name: 'Russian pedicure gel', price: '$80.00' },
-      { name: 'Russian pedicure (regular polish)', price: '$70.00' },
-      { name: 'Russian Pedicure (no gel or polish)', price: '$60.00' },
-      { 
-        name: 'Hard gel extensions', 
-        price: '$140.00',
+      { name: 'Gel removal + shape (no manicure)', price: '' },
+      { name: 'Gel removal (no manicure)', price: '' },
+      { name: 'Russian pedicure gel', price: '' },
+      { name: 'Russian pedicure (regular polish)', price: '' },
+      { name: 'Russian Pedicure (no gel or polish)', price: '' },
+      {
+        name: 'Hard gel extensions',
+        price: '',
         description: 'Hard gel extensions - is an extension with hard gel that offer a durable, stylish enhancement to natural nails, ensuring a long-lasting and chip-resistant finish.'
       },
-      { 
-        name: 'Gel X extensions', 
-        price: '$110.00',
+      {
+        name: 'Gel X extensions',
+        price: '',
         description: 'Experience long-lasting Gel X tips paired with a Russian manicure for flawless, beautiful nails.'
       },
-      { 
-        name: 'Russian manicure + gel', 
-        price: '$80.00',
+      {
+        name: 'Russian manicure + gel',
+        price: '',
         note: 'if needed hard gel or builder gel or powder it is $10 additional'
       },
-      { name: 'Russian manicure + regular polish', price: '$65.00' },
-      { 
-        name: 'Russian manicure (no polish or gel)', 
-        price: '$50.00',
+      { name: 'Russian manicure + regular polish', price: '' },
+      {
+        name: 'Russian manicure (no polish or gel)',
+        price: '',
         note: 'Removal of previous gel/polish is included in price'
       },
-      { name: "Men's pedicure (no polish/no gel)", price: '$70.00' },
-      { name: "Men's pedicure (regular polish)", price: '$80.00' },
-      { name: "Men's pedicure (gel)", price: '$90.00' },
-      { name: "Men's manicure (no polish/no gel)", price: '$60.00' },
-      { name: "Men's manicure (regular polish)", price: '$75.00' },
-      { name: "Men's manicure (gel)", price: '$90.00' },
+      { name: "Men's pedicure (no polish/no gel)", price: '' },
+      { name: "Men's pedicure (regular polish)", price: '' },
+      { name: "Men's pedicure (gel)", price: '' },
+      { name: "Men's manicure (no polish/no gel)", price: '' },
+      { name: "Men's manicure (regular polish)", price: '' },
+      { name: "Men's manicure (gel)", price: '' },
     ]
   },
   {
     category: 'Makeup',
     services: [
-      { 
-        name: 'Makeup', 
-        price: '$150.00',
+      {
+        name: 'Makeup',
+        price: '',
         description: 'any type of makeup : daily, evening, makeup for photoshoot'
       },
-      { 
-        name: 'Wedding makeup', 
-        price: '$300.00',
+      {
+        name: 'Wedding makeup',
+        price: '',
         description: 'Special makeup for weddings'
       },
-      { name: 'Wedding makeup trial', price: '$200.00' },
-      { 
-        name: 'wedding makeup include trial', 
-        price: '$450.00',
+      { name: 'Wedding makeup trial', price: '' },
+      {
+        name: 'wedding makeup include trial',
+        price: '',
         note: 'wedding makeup plus trial'
       },
     ]
@@ -76,79 +76,79 @@ const serviceCategories = [
   {
     category: 'Eyelashes',
     services: [
-      { 
-        name: 'New Classic set Eyelash Extension', 
-        price: '$140.00',
+      {
+        name: 'New Classic set Eyelash Extension',
+        price: '',
         description: 'Classic means that there is a single 1:1 extension applied to each natural lash. The most natural effect'
       },
-      { 
-        name: 'Classic Volume Extension Fill', 
-        price: '$100.00',
+      {
+        name: 'Classic Volume Extension Fill',
+        price: '',
         note: 'Classic volume refill is available if you are coming no longer than 14 days after last appointment with us.'
       },
-      { 
-        name: 'New 2D Set Eyelash Extension', 
-        price: '$160.00',
+      {
+        name: 'New 2D Set Eyelash Extension',
+        price: '',
         description: '2D means that 2 lashes applied to one natural lash'
       },
-      { 
-        name: '2D Eyelash Extension Fill', 
-        price: '$120.00',
+      {
+        name: '2D Eyelash Extension Fill',
+        price: '',
         note: 'Refill is available if you are coming no longer than 21 days from previous set with us.'
       },
-      { 
-        name: 'New 3D Set Eyelash Extension', 
-        price: '$170.00',
+      {
+        name: 'New 3D Set Eyelash Extension',
+        price: '',
         description: '3D volume means that 3 lashes applied to one natural lash.'
       },
-      { 
-        name: '3D Eyelash Extension Fill', 
-        price: '$130.00',
+      {
+        name: '3D Eyelash Extension Fill',
+        price: '',
         note: 'Refill is available if you are coming no longer than 21 days from previous set with us.'
       },
-      { 
-        name: 'New 4-5D Set Eyelash Extension', 
-        price: '$180.00',
+      {
+        name: 'New 4-5D Set Eyelash Extension',
+        price: '',
         description: '4-5D means that 4-5 lashes applied to one natural lash'
       },
-      { 
-        name: '4-5D Eyelash Extension Fill', 
-        price: '$130.00',
+      {
+        name: '4-5D Eyelash Extension Fill',
+        price: '',
         note: 'Refill is available if you are coming no longer than 21 days from previous set with us.'
       },
-      { 
-        name: 'New MEGA VOLUME Set Eyelash Extension', 
-        price: '$190.00',
+      {
+        name: 'New MEGA VOLUME Set Eyelash Extension',
+        price: '',
         description: 'MEGA VOLUME means that 6 or more lashes applied to one natural lash.'
       },
-      { 
-        name: 'MEGA VOLUME Eyelash Extension Fill', 
-        price: '$140.00',
+      {
+        name: 'MEGA VOLUME Eyelash Extension Fill',
+        price: '',
         note: 'Refill is available if you are coming no longer than 21 days from previous set with us.'
       },
-      { 
-        name: 'Eyelash tinting', 
-        price: '$20.00',
+      {
+        name: 'Eyelash tinting',
+        price: '',
         description: 'Process to dye eyelash to dark colors.'
       },
-      { 
-        name: 'Eyelash Removal (not our work) - with future extension', 
-        price: '$20.00',
+      {
+        name: 'Eyelash Removal (not our work) - with future extension',
+        price: '',
         description: 'Removing eyelash from different place with future extension only.'
       },
-      { 
-        name: 'Eyelash Removal (not our work) - no future extension', 
-        price: '$40.00',
+      {
+        name: 'Eyelash Removal (not our work) - no future extension',
+        price: '',
         description: 'Removing eyelash from different place with no future extension.'
       },
-      { 
-        name: 'Eyelash Lamination (Lift)', 
-        price: '$110.00',
+      {
+        name: 'Eyelash Lamination (Lift)',
+        price: '',
         description: 'Eyelash Lamination (Lift) is s lash enhancement option that gives semi-permanent result. It is a chemical treatment that lifts and curl your natural lashes.',
         note: 'Lasts around 6 weeks. Recommended to clients who has own long but straight lashes.'
       },
-      { 
-        name: 'Express Lashes', 
+      {
+        name: 'Express Lashes',
         price: '',
         description: 'Express Lashes offers a unique application technique where fans of fake lashes are placed on the lower layer of your natural lashes, resulting in 50%-70% extension coverage. This service provides a similar fullness to a full set but has a shorter lifespan and is completed in approximately one hour, with limitations on complex shapes and extra short lashes.'
       },
@@ -159,30 +159,30 @@ const serviceCategories = [
     services: [
       {
         name: 'brow shaping',
-        price: '$35.00',
+        price: '',
         description: 'brow shaping : wax, tweezers and threading.',
       },
       {
         name: 'brow tinting',
-        price: '$35.00',
+        price: '',
         description: 'brow tinting: brow henna or dyeing.',
         note: 'Lasts 3-6 weeks',
       },
       {
         name: 'brow tinting + shaping',
-        price: '$60.00',
+        price: '',
         description: 'Brows shaping involves waxing, tweezing along your brows natural lines to ensure a perfect contour. With eyebrow tinting a safe semi- permanent tint is applied to shape, define and enhance your eyebrows',
         note: 'lasts 4-6 weeks',
       },
       {
         name: 'brow lamination ( include tinting and shaping)',
-        price: '$100.00',
+        price: '',
         description: 'Brow lamination (lift) is a procedure that lifts and smooth brows with the goal of creating sleeker, neater and fuller -looking eyebrows. Result is similar to the look of applying brow gel.',
         note: 'Service include shaping and tinting. Lasts 4-6 weeks',
       },
       {
         name: 'Brow lamination ( include shaping)',
-        price: '$80.00',
+        price: '',
         description: 'brow lamination (lift) is a procedure lifts and smooths brows with the goal of creating sleeker, neater and fuller looking eyebrows. Result is similar to the look of applying brow gel.',
         note: 'Service include shaping. Lasts 4-6 weeks',
       },
