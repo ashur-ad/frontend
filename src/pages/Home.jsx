@@ -8,6 +8,7 @@ import makeupImage from '../assets/makeup.png';
 import lashesImage from '../assets/lashes.png';
 import eyebrowsImage from '../assets/eyebrows.png';
 import iglogo from '../assets/iglogo.png';
+import policyImage from '../assets/policy.PNG';
 
 // Design system constants
 const ACCENT_COLOR = '#9A9A8A'; // Warm greige/stone
@@ -1113,8 +1114,8 @@ export default function Home() {
         </Container>
       </Box>
 
-      {/* Section 06 - School */}
-      <Box component="section" id="school" sx={{ pt: { xs: 1, md: 1.5 }, pb: { xs: 4, md: 5 } }}>
+      {/* Section 06 - Policy */}
+      <Box component="section" id="policy" sx={{ pt: { xs: 1, md: 1.5 }, pb: { xs: 4, md: 5 } }}>
         <Container>
           <Box 
             sx={{ 
@@ -1189,45 +1190,34 @@ export default function Home() {
                 ml: { xs: 6, md: 8 },
               }}
             >
-              School
+              Policy
             </Typography>
 
-            {/* School Intro Text with Vertical Rule */}
-              <Box
-                sx={{
+            {/* Policy Image */}
+            <Box
+              sx={{
                 display: 'flex',
-                alignItems: 'flex-start',
-                gap: { xs: 2, md: 3 },
-                maxWidth: '700px',
-                ml: { xs: 6, md: 8 },
-                mb: { xs: 3, md: 4 },
-                position: 'relative',
+                justifyContent: 'center',
+                alignItems: 'center',
+                width: '100%',
+                px: { xs: 2, md: 4 },
               }}
             >
-              {/* Vertical Rule */}
               <Box
+                component="img"
+                src={policyImage}
+                alt="Service Policy"
                 sx={{
-                  width: '1px',
-                  height: { xs: '60px', md: '80px' },
-                  backgroundColor: ACCENT_COLOR,
-                  flexShrink: 0,
-                  mt: 0.5,
+                  width: 'auto',
+                  maxWidth: { xs: '100%', sm: '90%', md: '1000px' },
+                  height: 'auto',
+                  display: 'block',
+                  margin: '0 auto',
+                  border: '1px solid #e0e0e0',
+                  borderRadius: { xs: 0, md: '4px' },
+                  boxShadow: '0 2px 8px rgba(0,0,0,0.08)',
                 }}
               />
-              <Typography
-                sx={{
-                  textAlign: 'left',
-                  color: '#666',
-                  fontSize: { xs: '1rem', md: '1.125rem' },
-                  fontFamily: '"Crimson Text", serif',
-                  lineHeight: 1.8,
-                  fontWeight: 300,
-                  letterSpacing: '0.03em',
-                  flex: 1,
-                }}
-              >
-                More information will be available soon.
-              </Typography>
             </Box>
           </Box>
         </Container>

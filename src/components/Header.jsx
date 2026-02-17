@@ -19,13 +19,13 @@ const Header = () => {
     { label: 'Home', path: '#home' },
     { label: 'Services', path: '#services' },
     { label: 'Reviews', path: '#reviews' },
-    { label: 'School', path: '#school' },
+    { label: 'Policy', path: '#policy' },
     { label: 'Contact', path: '#contact' },
   ];
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'services', 'reviews', 'school', 'contact'];
+      const sections = ['home', 'services', 'reviews', 'policy', 'contact'];
       const scrollPosition = window.scrollY + 100;
 
       for (let i = sections.length - 1; i >= 0; i--) {
